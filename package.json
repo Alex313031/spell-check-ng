@@ -8,7 +8,7 @@
     "atom-select-list": "git+https://github.com/atom/atom-select-list.git#e8c7f87",
     "debug": "^4.3.4",
     "multi-integer-range": "^2.1.0",
-    "natural": "^0.6.3",
+    "natural": "^0.5.0",
     "spellchecker": "^3.7.1",
     "spelling-manager": "^1.1.0",
     "underscore-plus": "^1.7.0"
