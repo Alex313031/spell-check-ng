@@ -1,29 +1,30 @@
 {
   "name": "spell-check",
-  "version": "0.77.1",
+  "version": "0.77.2",
   "main": "./lib/main",
-  "description": "Highlights misspelled words and shows possible corrections.",
+  "description": "Highlights misspelled words and shows possible corrections in Atom-ng.",
   "dependencies": {
     "atom-pathspec": "^0.0.0",
-    "atom-select-list": "^0.7.0",
-    "debug": "^4.1.1",
-    "multi-integer-range": "^2.0.0",
-    "natural": "^0.4.0",
+    "atom-select-list": "git+https://github.com/atom/atom-select-list.git#e8c7f87",
+    "debug": "^4.3.4",
+    "multi-integer-range": "^2.1.0",
+    "natural": "^0.6.3",
     "spellchecker": "^3.7.1",
     "spelling-manager": "^1.1.0",
-    "underscore-plus": "^1"
+    "underscore-plus": "^1.7.0"
   },
   "devDependencies": {
     "husky": "^4.2.5",
-    "prettier": "^2.1.1"
+    "prettier": "^2.1.2"
   },
-  "repository": "https://github.com/atom/spell-check",
+  "repository": "https://github.com/Alex313031/spell-check-ng",
   "license": "MIT",
   "engines": {
     "atom": "*"
   },
   "scripts": {
-    "format": "prettier --write \"spec/*.js\" \"lib/**/*.js\" \"script/*.js\" --loglevel warn"
+    "format": "prettier --write \"spec/*.js\" \"lib/**/*.js\" \"script/*.js\" --loglevel warn",
+    "clean": "rm -r -f node_modules"
   },
   "configSchema": {
     "grammars": {
